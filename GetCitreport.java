@@ -2,9 +2,6 @@ package geturl;
 
 public class GetCitreport {
 	
-	public static void main(String[] args) throws Exception {
-		GetNews();
-	}
 	public static void GetNews() throws Exception {
 		// 网址
 		String[] str = OpenURL.run_1().split("aid=");
